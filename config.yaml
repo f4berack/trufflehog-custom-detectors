@@ -1,0 +1,6 @@
+detectors:
+- keywords:
+  - spring.datasource.password
+  name: custom regex detector
+  regex:
+    key: spring\.datasource\.password[=\:\s]+([^\s]+)
